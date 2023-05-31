@@ -1,0 +1,48 @@
+header {
+    background: rgb(97, 89, 89);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background: #e62727;
+    color: black;
+}
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.text-center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.bienvenida {
+    font-family: 'Courier New', Courier, monospace;
+    color: #c92424;
+}
+.presentado {
+    font-family: 'Courier New', Courier, monospace;
+    color: #b68d8d;
+}
+.parrafo {
+    font-family: 'Courier New', Courier, monospace;
+    color: #7e0909;
+}
